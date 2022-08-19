@@ -96,7 +96,7 @@ hr{
 	color:#000;
 	border-radius: 30px;
 
-	margin:20px 20px;
+	margin:1.25rem 1.25rem;
 
 }
 .fa-regular.fa-lightbulb{
@@ -159,4 +159,75 @@ hr{
 	background-color: #fff;
 	bottom:0;
 	left:-8px;
+}
+@media only screen and (max-width:1100px){
+	body{
+	
+		background-size:auto;
+	}
+
+}
+@media only screen and (max-width:800px){
+	br{
+		display:none;
+	}
+	.card1{
+	  width:100vw;
+		position:absolute;
+		top:100%;
+		
+		left:10%;
+		
+	
+	}
+	.fa-solid.fa-puzzle-piece{
+      margin:1.5rem 2rem;
+	}
+	.card2{
+		
+		position:absolute;
+		width:100vw;
+		left:10%;
+		top:140%;
+		
+	
+	}
+	.header{
+		width:100vw;
+	}
+	.line1{
+		
+	
+		right:-34px;
+		top:24px;
+		transform:rotate(-90deg);
+	}
+	.line1 .circle{
+		position:absolute;
+		top:70px;
+		left:-8px;
+		height:20px;
+	width:20px;
+	}
+
+	
+
+}
+@media only screen and (max-width:400px){
+	.list{
+		display: none;
+	}
+	.header-text{
+		font-size:1.2rem;
+		width:100%;
+
+	}
+	hr{
+		display: none;
+	}
+	.header{
+		margin:0 2rem;
+	}
+
+
 }
